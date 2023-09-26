@@ -1,10 +1,11 @@
 <script lang="ts">
+  import { base } from "$app/paths"
   import "$lib/home.css"
 </script>
 
 <!-- Header Section -->
 <header>
-  <a href="/" class="logo">Hamami</a>
+  <a href={base + "/"} class="logo">Hamami</a>
 
   <nav>
     <a href="#hero" class="active">Home</a>
