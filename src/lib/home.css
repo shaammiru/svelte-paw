@@ -1,0 +1,134 @@
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  color: #dfdfd6;
+}
+
+p {
+  color: #99999f;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  padding: 20px 5%;
+  background: #1e1e20;
+  border-bottom: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 25px;
+  color: #dfdfd6;
+  font-weight: 700;
+}
+
+nav a {
+  font-size: 18px;
+  color: #dfdfd6;
+  font-weight: 400;
+  margin-left: 30px;
+  transition: 0.2s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #9499ff;
+}
+
+main {
+  width: 100%;
+  padding: 0 5%;
+}
+
+main .hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .hero-container {
+  text-align: center;
+}
+
+.hero .hero-main h1 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.hero .hero-main .text {
+  color: transparent;
+}
+
+.hero .hero-main .text > span {
+  background: linear-gradient(
+    90deg,
+    rgba(87, 181, 255, 1) 0%,
+    rgba(137, 118, 254, 1) 35%,
+    rgba(189, 52, 254, 1) 100%
+  );
+  --webkit-background-clip: text;
+  background-clip: text;
+}
+
+.hero .hero-button {
+  margin-top: 32px;
+}
+
+.hero .hero-button a {
+  margin: 0 8px;
+  padding: 10px 24px;
+  color: #dfdfd6;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+.hero .hero-button .hire {
+  background-color: #646cff;
+  border: 1px solid #747bff;
+  transition: 0.3s;
+}
+
+.hero .hero-button .hire:hover {
+  background-color: #6f77fd;
+}
+
+.hero .hero-button .cv {
+  background-color: #313136;
+  border: 1px solid #47474d;
+  transition: 0.3s;
+}
+
+.hero .hero-button a:hover {
+  background-color: #39393f;
+}
+
+main .cards {
+  display: grid;
+
+}
+
+footer {
+  width: 100%;
+  padding: 32px 5%;
+  border-top: 1px solid #000;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+footer .license {
+  font-weight: 500;
+}
