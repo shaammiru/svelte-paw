@@ -28,7 +28,7 @@
         <h1 class="text">
           <span>Muhammad Syamil Hamami</span>
         </h1>
-        <h1>Devops Engineer</h1>
+        <h1>Software Engineer</h1>
       </div>
       <div class="hero-button">
         <a href="#hire" class="hire">Hire Me</a>
